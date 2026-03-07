@@ -4,3 +4,4 @@ class Pacient:
         self.idade = idade
         self.pcd = pcd
         
+        

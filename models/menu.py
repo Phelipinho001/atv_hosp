@@ -1,4 +1,5 @@
 class Menu: 
+    
     def exibir_opcoes(self):
         print("\n[MENU DE SERVIÇOS]")
         print("1. Consulta")
