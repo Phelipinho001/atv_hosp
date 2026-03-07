@@ -2,6 +2,7 @@ from datetime import datetime
 
 class Impressora:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     @staticmethod
     def imprimir_ticket(paciente, servico, senha=None):
         """
@@ -25,6 +26,8 @@ class Impressora:
         print(f"{'Mantenha este ticket':^30}")
         print("-" * 30)
 =======
+=======
+>>>>>>> Stashed changes
     def __init__(self):
         pass
 
@@ -44,5 +47,9 @@ class Impressora:
         print("-" * 42)
         print(f"Data: {data_atual}")
         print(f"{'Aguarde ser chamado no painel central.':^42}")
+<<<<<<< Updated upstream
+        print("-" * 42 + "\n")
+>>>>>>> Stashed changes
+=======
         print("-" * 42 + "\n")
 >>>>>>> Stashed changes
