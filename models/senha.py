@@ -1,4 +1,3 @@
-
 class Senha:
     senha_prioridade = 0
     senha_geral = 0
