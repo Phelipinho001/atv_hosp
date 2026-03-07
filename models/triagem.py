@@ -11,3 +11,14 @@ class Triagem:
             return True
         
         return False
+    
+    def exibir_alerta_emergencia(self, paciente):
+        print("\n------------------------------------------")
+        print("ALERTA DE EMERGÊNCIA")
+        print("------------------------------------------")
+        print(f"PACIENTE: {paciente.nome}")
+        print("STATUS: RISCO IMEDIATO")
+        print(">>> ATENÇÃO: Encaminhe-se IMEDIATAMENTE")
+        print("ao balcão de triagem médica.")
+        print("Não é necessário aguardar senha.")
+        print("------------------------------------------")
