@@ -1,7 +1,8 @@
 from models.paciente import Pacient
 
 class Classificador():
-    @staticmethod
+   
+   @staticmethod
     def classificar(paciente: Pacient):
         
         if paciente.pcd == True or paciente.idade >= 60:
