@@ -7,3 +7,4 @@ class Menu:
         
     def obter_escolha(self):
         return input("Escolha a opção: ")
+    
