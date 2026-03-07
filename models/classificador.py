@@ -12,3 +12,4 @@ class Classificador():
             return "Normal"
         
 classificar = Classificador.classificar
+
