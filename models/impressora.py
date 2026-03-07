@@ -5,7 +5,9 @@ class Impressora:
         pass
 
     def imprimir_ticket(self, paciente, tipo, servico, senha):
-
+        """
+        Recebe os 4 argumentos enviados pela main e imprime o ticket formatado.
+        """
         data_atual = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
         
         print("\n" + "-" * 42)
