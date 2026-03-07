@@ -1,9 +1,13 @@
-class Menu: 
-    def exibir_opcoes (self):
-        print("\n--- Sistema de Gestão de Pacientes ---")
-        print("1. Cadastrar Paciente")
-        print("2. Ver Lista de Pacientes")
-        print("3. Sair")
+class Menu:
+    def __init__(self):
+        pass
+
+    def exibir_opcoes(self):
         
-    def obter_escolha(self):
-        return input("Escolha o serviço desejado: ")
+        print("\n[MENU DE SERVIÇOS]")
+        print("1. Consulta")
+        print("2. Exame")
+        print("3. Emergência")
+        
+        escolha = input("Escolha a opção: ")
+        return escolha # 
