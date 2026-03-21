@@ -9,5 +9,4 @@ class Classificador():
         else:
             return "Geral"
 
-
 classificar = Classificador.classificar
